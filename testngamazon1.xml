@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Testing chrome">
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="amazon_Test.Testcase4_wishlist"/>
+      <class name="amazon_Test.Testcase2_search"/>
+      <class name="amazon_Test.testcase3_registration"/>
+      <class name="amazon_Test.Testcase5_profileEdit"/>
+      <class name="amazon_Test.Testcase1_login"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test thread-count="5" name="Testing edge">
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="amazon_Test.Testcase4_wishlist"/>
+      <class name="amazon_Test.Testcase2_search"/>
+      <class name="amazon_Test.testcase3_registration"/>
+      <class name="amazon_Test.Testcase5_profileEdit"/>
+      <class name="amazon_Test.Testcase1_login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Testing safari">
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="amazon_Test.Testcase4_wishlist"/>
+      <class name="amazon_Test.Testcase2_search"/>
+      <class name="amazon_Test.testcase3_registration"/>
+      <class name="amazon_Test.Testcase5_profileEdit"/>
+      <class name="amazon_Test.Testcase1_login"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
